@@ -21,3 +21,18 @@ line-height: 21.86px;
 text-align: left;
 
 }
+
+.text3{
+  font-family:'Manrope', sans-serif;
+font-size: 38px;
+font-weight: 500;
+line-height: 51.91px;
+text-align: left;
+
+}
+
+
+.line{
+  margin-top: 30px;
+  border: 3px solid rgba(114, 119, 122, 1)
+}

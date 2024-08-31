@@ -7,6 +7,7 @@ import './light_theme.css'
 import './dark_theme.css'
 import SVGComponent from './components/Svgcomponent';
 import Feature from './components/Feature';
+import Categories from './components/Categories';
 function App() {
   const { theme } = useTheme();
   return (
@@ -14,6 +15,7 @@ function App() {
     <Navbar/>
     <Banner/>
     <Feature/>
+    <Categories/>
    </div>
   );
 }

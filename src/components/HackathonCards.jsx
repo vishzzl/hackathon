@@ -31,20 +31,15 @@ const HackathonCards = () => {
             description: 'This is the fifth hackathon',
             startDate: '2022-05-01',
             endDate: '2022-05-03'
-        },
-        {
-            title: 'Hackathon 6',
-            description: 'This is the sixth hackathon',
-            startDate: '2022-06-01',
-            endDate: '2022-06-03'
         }
+       
         // Add more hackathons as needed
     ];
 
     return (
-        <div className="overflow-x-auto whitespace-nowrap p-4">
+        <div className="flex overflow-x-auto whitespace-nowrap p-5 justify-center">
             {hackathons.map((hackathon, index) => (
-                <div className="inline-block bg-white shadow-md rounded-lg p-6 m-2" key={index}>
+                <div className="inline-block bg-white shadow-md rounded-lg p-8 m-4" key={index}>
                     <h2 className="text-2xl font-bold mb-2">{hackathon.title}</h2>
                     <p className="text-gray-700 mb-4">{hackathon.description}</p>
                     <p className="text-gray-600 mb-2">Start Date: {hackathon.startDate}</p>
