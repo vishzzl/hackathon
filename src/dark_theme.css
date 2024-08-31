@@ -1,0 +1,144 @@
+.dark-theme .container-80 {
+  border-radius: 160px;
+  position: relative;
+  width: 260px;
+  height: 440px;
+}
+
+.dark-theme .downloader-la-664358-d-8-f-16-ad-photoroom-1 {
+  background: url(../assets/images/downloader_la_66432_b_639_bfca_photoroom_1.png);
+  position: absolute;
+  left: -14px;
+  bottom: -4px;
+  width: 282px;
+  height: 336px;
+}
+
+.dark-theme .container-30 {
+  border-radius: 160px;
+  position: relative;
+  width: 260px;
+  height: 440px;
+}
+
+.dark-theme .downloader-la-66432-ca-77591-ephotoroom-1 {
+  background: url(../assets/images/downloader_la_66432_ca_77591_ephotoroom_1.png);
+  position: absolute;
+  right: -22.8px;
+  bottom: -62.9px;
+  width: 305.5px;
+  height: 406.5px;
+}
+
+.dark-theme .group-73 {
+  border-radius: 160px;
+  background: #1a1a1a; /* Dark background color */
+  position: relative;
+  margin-bottom: 129px;
+  display: flex;
+  width: 260px;
+  height: 440px;
+  box-sizing: border-box;
+}
+
+.dark-theme .container-80 {
+  border-radius: 160px;
+  position: relative;
+  width: 260px;
+  height: 440px;
+}
+
+.dark-theme .group-156 {
+  border-radius: 160px;
+  background: #333333; /* Dark background color */
+  position: relative;
+  margin: 129px 24px 0 0;
+  display: flex;
+  width: 260px;
+  height: 440px;
+  box-sizing: border-box;
+}
+
+.dark-theme .container-19 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  background: #000;
+}
+
+.dark-theme .group-159 {
+  position: relative;
+  margin: 92px 97.5px 173px 0;
+  width: 429px;
+  box-sizing: border-box;
+}
+
+.dark-theme .container-13 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background: #000;
+}
+
+.dark-theme .frame-2609247 {
+  background: #000000; /* Dark background color */
+  position: relative;
+  margin-bottom: 29px;
+  display: flex;
+  padding: 76px 108px 43px 108px;
+  box-sizing: border-box;
+}
+
+.dark-theme .button-base {
+  box-shadow: var(--shadowxs, 0px 1px 2px 0px rgba(16, 24, 40, 0.2)); /* Darker shadow */
+  border-radius: 8px;
+  border: 1px solid var(--purple-base, #8a2be2); /* Adjusted purple for dark theme */
+  background: var(--purple-base, #8a2be2); /* Adjusted purple for dark theme */
+  display: flex;
+  padding: 9px 17.7px 9px 17px;
+  box-sizing: border-box;
+}
+
+.dark-theme .actions {
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+
+.dark-theme .hack-the-future {
+  margin-bottom: 46px;
+  overflow-wrap: break-word;
+  font-family: 'Manrope';
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 1.001;
+  color: #f5f5f5; /* Light text color for dark background */
+}
+
+.dark-theme .hack-the-future-sub-30 {
+  margin-bottom: 46px;
+  overflow-wrap: break-word;
+  font-family: 'Manrope';
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 1.001;
+  color: #f5f5f5; /* Light text color for dark background */
+}
+
+.dark-theme .hack-the-future-sub-15 {
+  overflow-wrap: break-word;
+  font-family: 'Manrope';
+  font-weight: 100;
+  font-size: 20px;
+  color: #f5f5f5; /* Light text color for dark background */
+}
+
+.dark-theme .container-101 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
