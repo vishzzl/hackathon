@@ -3,3 +3,12 @@
   display: flex;
   justify-content: flex-start; /* Align the image to the right */
 }
+
+.text1{
+  font-family: Manrope;
+font-size: 38px;
+font-weight: 600;
+line-height: 51.91px;
+text-align: left;
+
+}

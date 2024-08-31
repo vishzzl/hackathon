@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import SVGComponent from './Svgcomponent';
+import HackathonCard from './HackathonCards';
 
 const items = [
     {
@@ -35,7 +36,7 @@ const Feature = () => {
     };
 
     return (
-        <div className=' justify-center items-center m-auto bg-gradient-to-b from-blue-100 to-yellow-300'>
+        <div className=' justify-center items-center m-auto bg-gradient-to-b from-blue-100 to-yellow-100'>
 
             <SVGComponent />
 
@@ -52,7 +53,7 @@ const Feature = () => {
                     {items.map((item, index) => (
                                     <div key={index} className='rounded-lg shadow-lg p-6 mx-10 card1 overflow-hidden' style={{ width: '520px', height: '226px', background: item.backgroundColor }}>
                                         <div className='flex'>
-                                            <div className=' flex-1 '>
+                                            <div className='flex-1'>
                                                 <img src={item.image} alt="Descriptive text"  className='m-0 flex-start w-full h-full object-cover transform scale-x-[-1]' /> 
                                             </div>
                                             <div className='flex-1'>
@@ -84,6 +85,21 @@ const Feature = () => {
                         &#10095;
                     </button>
                 </div>
+            </div>
+            <div className='flex mt-10'>
+                <div className='flex-1 m-10 my-auto'>
+                    <h2 className='text1'>Experience the power of AI firsthand at the Smart AI Hackathon</h2>
+                    <button className='text-white px-4 py-2 rounded mt-4 bg-purple-500'>Join now</button>
+                </div>
+                <div className='flex-1 items-end'>
+                    <img src="../assets/vectors/box.svg" className='float-right' alt="SVG File" />
+                </div>
+            </div>
+            <div className='flex-row mt-10'>
+                <h2 className='text1 m-10'> 
+                Upcoming Hackathons
+                </h2>
+                <HackathonCard/>
             </div>
         </div>
     );
